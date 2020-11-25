@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+      <%- include('partials/head.ejs') %>
+      <body>
+                <%- include('partials/header.ejs') %>
+        <br /><br />
+        
+        <main class="procon">
+            <div class="pros">
+                <h2>Pros</h2>
+                <ul>
+                    <li>Information Access - Anyone can remotely access a device’s data 
+                    because they are part of a network.</li>
+                    <li>Communication - Since machinery is able to communicate with 
+                    each other it substantially increases efficiency and produces better results.</li>
+                    <li>Automation - Without the need for human intervention, the 
+                    possibility of human error is dismal and results in a more streamlined service.</li>
+                </ul>
+            </div>
+            <div class="cons">
+                 <h2>Cons</h2>
+                <ul>
+                    <li>Privacy - Data shared over the network is 
+                    not always secure and data can be intercepted.</li>
+                    <li>Complexity - The biggest issue in IoT is 
+                    how to connect all these devices as one mistake can ruin the system.</li>
+                    <li>Lesser Jobs - Human labor will become 
+                    redundant as fewer humans are needed to maintain service.</li>
+                </ul>
+            </div>
+            
+        </main>
+        <figure>
+            <img width="400" height="200" 
+            src="https://internetofbusiness.com/wp-content/uploads/2015/11/security.jpg" 
+            alt="IOT Securrity" />
+        </figure>
+   <%- include('partials/footer.ejs') %>
+    </body>
+</html>

@@ -1,0 +1,106 @@
+
+h1{
+    font-family: 'Anton', sans-serif;
+    font-sizw:4em;
+    margin-bottom: 0px;
+}
+
+body{
+    background-color: #160f30;
+    color: #eae7af;
+}
+
+header, main, nav, footer{
+    text-align: center;
+}
+
+nav a { /* links within "nav" container */
+    padding:15px;
+    padding-bottom:4px;
+    font-size:1.8em;
+    text-decoration: none; /*removes Underline */
+    color: #eae7af;          /* by default, links are blue */
+}
+
+nav a:hover { 
+    border-bottom:2px #241663 solid;
+    font-size: 2em;
+    transition: .9s;
+}
+
+main{
+    display:flex;
+    justify-content:center;
+}
+
+footer{
+    font-size: .5em;
+    color: #eae7af;
+}
+
+table{
+    margin: 0px auto;
+}
+
+td{
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+
+td strong{
+    color: orange;
+}
+
+#table-header{
+    background-color: #351a00;
+}
+
+#active{
+    border-bottom:2px #a72693 solid;
+    font-size: 2em;
+    transition: .9s;
+
+}
+
+#content{
+    text-align: center;
+}
+
+.table-row{
+    background-color: #753900;
+}
+
+.hobby {
+    color:yellow;
+}
+
+.pros{
+    background-color: #241663;
+}
+
+.cons{
+    background-color: #a72693;
+}
+
+.procon{
+    border: 15px solid #eae7af;
+    margin: 20px;
+}
+
+.fistPage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+ul{
+    width:500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+img {
+    max-width: 300px;
+    max-height: 200px;
+}

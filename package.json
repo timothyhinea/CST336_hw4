@@ -1,0 +1,26 @@
+{
+  "name": "cst336_hw4",
+  "version": "1.0.0",
+  "description": "Homework 4",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timothyhinea/CST336_hw4.git"
+  },
+  "author": "Andrew Hinea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timothyhinea/CST336_hw4/issues"
+  },
+  "homepage": "https://github.com/timothyhinea/CST336_hw4#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "faker": "^5.1.0",
+    "nodemon": "^2.0.6"
+  }
+}
